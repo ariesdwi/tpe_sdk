@@ -1,0 +1,4 @@
+name: tpe_sdk
+packages:
+  - packages/**
+
