@@ -1,0 +1,28 @@
+name: tpe_homepage_sdk
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tpe_component_sdk:
+    path: ../tpe_component_sdk
+    # git:
+    #   url: https://bitbucket.bri.co.id/scm/~70001390/tpecomponentsdk.git
+    #   ref: v1.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/
