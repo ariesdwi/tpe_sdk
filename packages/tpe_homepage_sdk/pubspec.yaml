@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   tpe_component_sdk:
-    path: ../tpe_component_sdk
+    git:
+      url: https://github.com/ariesdwi/tpe_sdk.git
+      path: packages/tpe_component_sdk
+      ref: main
     # git:
     #   url: https://bitbucket.bri.co.id/scm/~70001390/tpecomponentsdk.git
     #   ref: v1.0.1
